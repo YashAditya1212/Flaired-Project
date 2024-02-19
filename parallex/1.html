@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Parallax</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <section1>
+        <img src="sky.jpg" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain1.png" id="mountain">
+        <img src="road1.png" id="road">
+        <h2 id="text">Flaired</h2>
+       
+       
+
+        
+    </section1>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            bg.style.top = value* 0.2 +'px';
+            moon.style.left = -value* 1.5 +'px';
+            mountain.style.top = -value* 0.10 +'px';
+            road.style.top = value* 0.10 +'px';
+            text.style.bottom = value* 2.3 +'px';
+        })
+    </script>
+    <section2>
+        <div class="content">
+        <div class="content1">Do more creative with
+            <br>
+             Flaired</div>
+        <div class="vertical1"></div>
+        <div class="content2">
+            <div class="right-row1"> <span class="right-bullet"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" fill="green" class="bi bi-patch-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+              </svg>
+            </span> more skills and skills and skills</div>
+    <div class="right-row2"> <span class="right-bullet"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" fill="green" class="bi bi-patch-check" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+      </svg>
+        Advance your level to pro and skills and skills and skills </div>
+    <div class="right-row3"><span class="right-bullet"><span class="right-bullet"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" fill="green" class="bi bi-patch-check" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+      </svg>
+        Lorem ipsum, dolor sit amet consectetur adipisicingand skills </div>
+    <div class="right-row4"><span class="right-bullet"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" fill="green" class="bi bi-patch-check" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+      </svg>
+        elit. Sequi, eligendi at! Laborum.and skills and skills</div>
+
+        </div>
+        </div>
+            
+    </section2>
+    <section3>
+        <div class="experts-corner">
+            <div class="headof3">
+               Get mentored from Leading Professionals
+            </div>
+            <div class="head3sub">
+                Learn from industry and business level experts in their field of expertise.
+                <br>
+                And get your passion to a whole other level with us in one go .
+            </div>
+            <div id="card">
+                <div class="rightcard1">
+                <img src="shradha3.jpeg" class="coder">
+                 <div class="text1">
+                    Shraddha Khapra
+                    <br>
+                   Software Developer,Youtuber
+                   
+                </div>
+                    </div>
+                    <div class="rightcard2">
+                        <img src="painter.jpg" class="coder">
+                        <div class="text1">
+                            Michelangelo Pistoletto
+                            <br>
+                            Painter
+                        </div>
+                    </div>
+                    <div class="rightcard3">
+                        <img src="football-academy_02.jpg" class="coder">
+                        <div class="text1">
+                            Ben Black
+                            <br>
+                            Footballer,Youtuber
+                    </div>
+                    </div>
+                    
+
+                    <div class="rightcard4">
+                        <img src="manan.jpg" class="coder">
+                        <div class="text1">
+                        Manan Gupta
+                            <br>
+                            Guitarist,Youtuber
+                            
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section3>
+    <section4 >
+        <div class="sec4">
+        <h2 class="why">
+            <u style="text-decoration-color:#DF8120">Why Flaired </u>?
+        </h2>
+        
+
+
+
+        <div class="whyans"> Whether it's a first brush on canvas or the last frame in an animation, Skillshare is here to support you on every step of your creative journey.</div>
+       <div class="cardk">
+        10K+<br>
+        Classes
+    </div>
+    <div class="cardk">
+        20K+<br>
+        Web Links
+    </div>
+    <div class="cardk">
+        4.3++++<br>
+        User Rating
+    </div>
+    <div class="cardk">
+        Doubt<br>
+        Solving
+    </div>
+       <div class="quote">
+    Do what you love and success will follow and learn .
+    <br>
+    Passion is the fuel behind a successful career.”
+   </div>
+   <div class="writer">- Meg Whitman</div>
+   <div class="quota2">
+    “If you feel like there’s something out there that you’re supposed to be doing,<br>
+     if you have a passion for it,<br>
+      then stop wishing and just do it.”
+   </div>
+<div class="writer">
+   - Wanda Sykes
+</div>
+
+    </div>
+   
+    </section4>
+    <section7>
+       
+    </section7>
+    <footer>
+        <section5>
+       <p class="rights"> © 2023  Flaired  |  All Rights Reserved  | </p>
+        </section5>
+        <section6>
+            <div class="questions" >
+                <button class="btn" type="button">
+                    <strong><a href="forthelogin.html">LOGIN</a></strong>
+                    <div id="container-stars">
+                      <div id="stars"></div>
+                    </div>
+                  
+                    <div id="glow">
+                      <div class="circle"></div>
+                      <div class="circle"></div>
+                    </div>
+                  </button>
+                  <br>
+                  <br>
+
+                Questions? Call 000-800-919-1694
+            </div>
+            <div class="footer">
+                <div class="footer-item"> 
+                    <a href="faq">Investor Relations</a>
+                    <a href="faq">Jobs</a>
+                    <a href="faq">Ways to Learn</a>
+                    <a href="faq">Terms of Use</a>
+                </div>
+    
+                <div class="footer-item"> 
+                    <a href="faq">Help Centre</a>
+                    <a href="faq">Account</a>
+                    <a href="faq">Speed Test</a>
+                    <a href="faq">Legal Notices</a>
+                </div>
+                <div class="footer-item">
+                    <a href="faq">Media Centre</a>
+                    <a href="faq">Privacy</a>
+                    <a href="faq">Cookie Preferences</a> 
+                    <a href="faq">Corporate</a>
+                </div>
+    
+                <div class="footer-item">
+                    <a href="faq">Contact Us</a>
+                    <a href="faq">Quality Test</a> 
+                    <a href="faq">Legal Notices</a> 
+                    <a href="faq">Only on Flaired</a>
+                    <br>
+                    <p class="since">
+                        © since 2023 Flaired, Inc.
+    
+                    </p>
+                    <p id="trademark">
+                        Yash Aditya Mishra & Shriya Shreyaskar 2024
+                    </p>
+                </div>
+            </div>
+        </section6>
+        
+    </footer>
+</body>
+</html>
